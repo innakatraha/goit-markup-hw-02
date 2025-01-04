@@ -29,7 +29,9 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.link-header:hover,
+.link-header:hover {
+  color: #404bbf;
+}
 .link-header:focus {
   color: #404bbf;
 }

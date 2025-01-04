@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background: #ffffff;
 }
 ul {
@@ -14,7 +14,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  font-family: "Raleway", serif;
+  font-family: "Raleway", sans-serif;
 }
 .logo-text2 {
   color: #2e2f42;
@@ -29,7 +29,8 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.link-header:hover {
+.link-header:hover,
+.link-header:focus {
   color: #404bbf;
 }
 .link-header:active {
@@ -66,7 +67,8 @@ a {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.button-section-one:hover {
+.button-section-one:hover,
+.button-section-one:focus {
   background-color: #404bbf;
 }
 .header-section-two {
@@ -74,6 +76,7 @@ a {
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .text-section-two {
   font-weight: 400;
@@ -90,6 +93,8 @@ a {
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
 }
 .subtitle-section-three {
   font-weight: 500;
@@ -97,6 +102,7 @@ a {
   line-height: 120%;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 .text-section-three {
   color: #434455;
@@ -112,12 +118,15 @@ a {
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
 }
 .subtitle-section-four {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .text-section-four {
   color: #434455;
@@ -134,8 +143,11 @@ a {
 }
 .footer-text {
   font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.02em;
-color: #f4f4fd;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+.bakcground-section-tree {
+  background-color: #ffffff;
 }

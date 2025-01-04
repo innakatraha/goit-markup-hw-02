@@ -44,7 +44,8 @@ a {
   font-style: normal;
   color: #434455;
 }
-.address:hover {
+.address:hover,
+address:focus {
   color: #404bbf;
 }
 .main-header {
